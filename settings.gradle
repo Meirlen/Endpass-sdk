@@ -1,2 +1,2 @@
-include ':app', ':error', ':photo', ':endpass_sdk'
+include ':app', ':photo', ':endpass_sdk'
 rootProject.name='My Application'
