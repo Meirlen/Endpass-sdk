@@ -15,6 +15,7 @@ abstract class CompletableUseCase<in Params> : UseCase() {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(onComplete, onError)
         disposables.add(disposable)
+
         lastDisposable = disposable
     }
 }
