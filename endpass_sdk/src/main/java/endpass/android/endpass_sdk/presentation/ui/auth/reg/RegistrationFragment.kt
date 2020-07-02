@@ -18,7 +18,6 @@ import endpass.android.endpass_sdk.presentation.vo.Status
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import kotlinx.android.synthetic.main.fragment_registration.*
 import org.koin.android.viewmodel.ext.android.viewModel
-import java.lang.Exception
 
 
 class RegistrationFragment : Fragment() {
@@ -54,7 +53,7 @@ class RegistrationFragment : Fragment() {
 
 
     private fun initView() {
-        // loginInputLayout.setValue("dev+meirlen1990@endpass.com")
+       // loginInputLayout.setValue("dev+meirlen1990@endpass.com")
         loginInputLayout.setValidationStrategy(EmailStrategy()) { signUpBtn.setDisable(!isAllDataCorrectFilled()) }
         newPassInputLayout.setValidationStrategy(PasswordStrategy()) { signUpBtn.setDisable(!isAllDataCorrectFilled()) }
         confirmPassInputLayout.setValidationStrategy(PasswordStrategy()) { signUpBtn.setDisable(!isAllDataCorrectFilled()) }
@@ -121,8 +120,10 @@ class RegistrationFragment : Fragment() {
     }
 
     private fun showProgress() {
-        progressBar.show()
-        signUpBtn.clearText()
+       // if (signUpBtn.isVisible) {
+            progressBar.show()
+            signUpBtn.clearText()
+       // }
     }
 
     private fun setListeners() {
