@@ -47,26 +47,3 @@
 #-dontobfuscate
 
 # Все модельки с сервера должны помечаться аннотацией @Keep, чтобы при обфускации не ломался парсинг json-данных
-
--include proguard-glide.pro
--include proguard-retrofit.pro
--include proguard-mobocards.pro
-
--keepclassmembers enum * { *; }
-
--keep class com.example.domain.interactor.** { *; }
--keep class androidx.appcompat.widget.** { *; }
--keep class endpass.android.endpass_sdk.App
-
-
--dontusemixedcaseclassnames
--verbose
-
--assumenosideeffects class android.util.Log {
-  public static *** v(...);
-  public static *** d(...);
-  public static *** i(...);
-  public static *** w(...);
-  public static *** e(...);
-}
--ignorewarnings
