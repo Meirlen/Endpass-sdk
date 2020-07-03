@@ -9,7 +9,7 @@ object Constant {
 
     var BASE_URL: String = "https://identity-dev.endpass.com"
 
-    var OAUTH_URL: String = "https://identity-dev.endpass.com"
+    var OAUTH_URL: String = "https://api-dev.endpass.com"
 
     var DOCUMENT_URL: String = "$BASE_URL/api/v1.1/documents/"
 
