@@ -21,6 +21,5 @@
 #-renamesourcefileattribute SourceFile
 
 -keepclassmembers enum * { *; }
-
 -keep class endpass.android.endpass_sdk.presentation.router.** { *; }
 -keep class androidx.appcompat.widget.** { *; }
