@@ -1,7 +1,7 @@
 package endpass.android.endpass_sdk.presentation.di
 
 import android.content.Context
-import com.example.data.remote.ApiService
+import endpass.android.endpass_sdk.data.remote.ApiService
 import com.google.gson.ExclusionStrategy
 import com.google.gson.FieldAttributes
 import com.google.gson.Gson

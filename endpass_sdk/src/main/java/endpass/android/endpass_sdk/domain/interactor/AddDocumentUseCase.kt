@@ -1,7 +1,7 @@
-package com.example.domain.interactor
+package endpass.android.endpass_sdk.domain.interactor
 
-import com.example.domain.base.SingleUseCase
-import com.example.domain.repository.MainRepository
+import endpass.android.endpass_sdk.domain.base.SingleUseCase
+import endpass.android.endpass_sdk.domain.repository.MainRepository
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import endpass.android.endpass_sdk.gateway.entity.documents.CheckDocumentResponse
 import io.reactivex.Single

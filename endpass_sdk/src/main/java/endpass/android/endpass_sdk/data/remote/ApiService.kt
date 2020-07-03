@@ -1,7 +1,7 @@
-package com.example.data.remote
+package endpass.android.endpass_sdk.data.remote
 
 
-import com.example.domain.interactor.*
+import endpass.android.endpass_sdk.domain.interactor.*
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import endpass.android.endpass_sdk.gateway.entity.change_pass.ChangePassResponse
 import endpass.android.endpass_sdk.gateway.entity.check.CheckResponse

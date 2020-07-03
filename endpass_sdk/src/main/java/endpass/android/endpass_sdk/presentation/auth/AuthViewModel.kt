@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import endpass.android.endpass_sdk.presentation.vo.Resource
 import endpass.android.endpass_sdk.data.exception.handleError
-import com.example.domain.interactor.*
+import endpass.android.endpass_sdk.domain.interactor.*
 import endpass.android.endpass_sdk.gateway.EnumCollections.*
 import endpass.android.endpass_sdk.gateway.entity.login.LoginExtraData
 import endpass.android.endpass_sdk.presentation.utils.NotifyUtils

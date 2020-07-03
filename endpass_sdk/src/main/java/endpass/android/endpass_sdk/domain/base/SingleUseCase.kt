@@ -1,4 +1,4 @@
-package com.example.domain.base
+package endpass.android.endpass_sdk.domain.base
 
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers

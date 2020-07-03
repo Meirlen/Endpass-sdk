@@ -1,7 +1,7 @@
 package endpass.android.endpass_sdk.data.exception
 
-import com.example.domain.exception.BusinessLogicException
-import com.example.domain.exception.ServerException
+import endpass.android.endpass_sdk.domain.exception.BusinessLogicException
+import endpass.android.endpass_sdk.domain.exception.ServerException
 import io.reactivex.Single
 import retrofit2.Response
 

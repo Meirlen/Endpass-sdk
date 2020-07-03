@@ -23,3 +23,22 @@
 -keepclassmembers enum * { *; }
 -keep class endpass.android.endpass_sdk.presentation.router.** { *; }
 -keep class androidx.appcompat.widget.** { *; }
+
+-include proguard-glide.pro
+-include proguard-retrofit.pro
+
+
+-keep class endpass.android.endpass_sdk.domain.interactor.** { *; }
+-keep class androidx.appcompat.widget.** { *; }
+
+-dontusemixedcaseclassnames
+-verbose
+
+-assumenosideeffects class android.util.Log {
+  public static *** v(...);
+  public static *** d(...);
+  public static *** i(...);
+  public static *** w(...);
+  public static *** e(...);
+}
+-ignorewarnings

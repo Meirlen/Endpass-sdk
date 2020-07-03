@@ -1,4 +1,4 @@
-package com.example.domain.base
+package endpass.android.endpass_sdk.domain.base
 
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers

@@ -1,12 +1,12 @@
 package endpass.android.endpass_sdk.presentation.di
 
-import com.example.data.impl.*
+import endpass.android.endpass_sdk.data.impl.*
 
-import com.example.domain.repository.*
+import endpass.android.endpass_sdk.domain.repository.*
 
 import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
 import endpass.android.endpass_sdk.presentation.ui.home.DocFlowViewModel
-import com.example.domain.interactor.*
+import endpass.android.endpass_sdk.domain.interactor.*
 import endpass.android.endpass_sdk.presentation.ui.auth.OAuthViewModel
 
 import org.koin.android.viewmodel.ext.koin.viewModel

@@ -2,7 +2,7 @@ package endpass.android.endpass_sdk.presentation.ui.home
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.domain.interactor.*
+import endpass.android.endpass_sdk.domain.interactor.*
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import endpass.android.endpass_sdk.gateway.EnumCollections.DocumentStatusType.Uploading
 import endpass.android.endpass_sdk.gateway.EnumCollections.DocumentStatusType.Recognition

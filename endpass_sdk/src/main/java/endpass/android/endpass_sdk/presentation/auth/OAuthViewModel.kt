@@ -2,7 +2,7 @@ package endpass.android.endpass_sdk.presentation.ui.auth
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import endpass.android.endpass_sdk.presentation.vo.Resource
-import com.example.domain.interactor.*
+import endpass.android.endpass_sdk.domain.interactor.*
 import endpass.android.endpass_sdk.gateway.entity.oauth.ConsentResponse
 import endpass.android.endpass_sdk.gateway.entity.oauth.OauthSettingsResponse
 import endpass.android.endpass_sdk.gateway.entity.oauth.PostOauthTokenResponse

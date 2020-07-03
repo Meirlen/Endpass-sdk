@@ -1,12 +1,12 @@
-package com.example.data.impl
+package endpass.android.endpass_sdk.data.impl
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import endpass.android.endpass_sdk.data.exception.request
-import com.example.data.remote.ApiService
-import com.example.domain.interactor.*
-import com.example.domain.repository.MainRepository
+import endpass.android.endpass_sdk.data.remote.ApiService
+import endpass.android.endpass_sdk.domain.interactor.*
+import endpass.android.endpass_sdk.domain.repository.MainRepository
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import endpass.android.endpass_sdk.gateway.entity.documents.*
 import io.reactivex.Single

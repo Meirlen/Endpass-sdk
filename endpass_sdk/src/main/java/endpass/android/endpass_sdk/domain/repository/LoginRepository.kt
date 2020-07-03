@@ -1,6 +1,6 @@
-package com.example.domain.repository
+package endpass.android.endpass_sdk.domain.repository
 
-import com.example.domain.interactor.*
+import endpass.android.endpass_sdk.domain.interactor.*
 import endpass.android.endpass_sdk.gateway.entity.change_pass.ChangePassResponse
 import endpass.android.endpass_sdk.gateway.entity.check.CheckResponse
 import endpass.android.endpass_sdk.gateway.entity.code.CodeResponse

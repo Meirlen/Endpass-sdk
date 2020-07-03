@@ -1,4 +1,4 @@
-package com.example.domain.exception
+package endpass.android.endpass_sdk.domain.exception
 
 /**
  * Exception for app business logic errors

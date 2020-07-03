@@ -1,10 +1,10 @@
-package com.example.data.impl
+package endpass.android.endpass_sdk.data.impl
 
 import endpass.android.endpass_sdk.data.exception.request
 import endpass.android.endpass_sdk.data.exception.requestRedirect
-import com.example.data.remote.ApiService
-import com.example.domain.interactor.*
-import com.example.domain.repository.LoginRepository
+import endpass.android.endpass_sdk.data.remote.ApiService
+import endpass.android.endpass_sdk.domain.interactor.*
+import endpass.android.endpass_sdk.domain.repository.LoginRepository
 import endpass.android.endpass_sdk.gateway.entity.change_pass.ChangePassResponse
 import endpass.android.endpass_sdk.gateway.entity.check.CheckResponse
 import endpass.android.endpass_sdk.gateway.entity.code.CodeResponse
