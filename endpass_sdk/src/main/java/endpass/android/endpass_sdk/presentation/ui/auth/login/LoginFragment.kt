@@ -80,7 +80,7 @@ class LoginFragment : androidx.fragment.app.Fragment() {
             loginBtn.setDisable(!isValidate)
             resetPassParams()
         }
-        loginInputLayout.setValue("dev+miko1991@endpass")
+       // loginInputLayout.setValue("dev+miko1991@endpass")
 
     }
 

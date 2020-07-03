@@ -10,7 +10,6 @@ import endpass.android.endpass_sdk.presentation.ui.auth.AuthActivity
 import endpass.android.endpass_sdk.gateway.entity.login.LoginExtraData
 import endpass.android.endpass_sdk.presentation.base.Constant
 import endpass.android.endpass_sdk.presentation.base.Constant.TAKE_PHOTO_REQUEST_CODE
-import endpass.android.endpass_sdk.presentation.ui.auth.OauthActivity
 import endpass.android.endpass_sdk.presentation.ui.cropper.CropperActivity
 import endpass.android.endpass_sdk.presentation.ui.document.CameraActivity
 import endpass.android.endpass_sdk.presentation.ui.document.DocumentActivity
@@ -22,15 +21,6 @@ class MainRouter {
     fun openLogin(context: Context?, flow: Int = EnumCollections.AuthFlowType.AUTH.ordinal) {
         context?.let {
             it.startActivity(AuthActivity.getStartIntent(it, flow))
-        }
-    }
-
-    fun openOauth(fragment: Fragment) {
-        fragment.context?.let {
-            fragment.startActivityForResult(
-                OauthActivity.getStartIntent(it),
-                Constant.OAUTH_GET_TOKEN_REQUEST_CODE
-            )
         }
     }
 

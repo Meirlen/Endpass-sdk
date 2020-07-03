@@ -1,6 +1,5 @@
 package endpass.android.endpass_sdk.presentation.base
 
-import endpass.android.endpass_sdk.BuildConfig
 
 object Constant {
 
@@ -50,9 +49,6 @@ object Constant {
     const val VERIFIED_DOCUMENT_CODE = 1870
 
 
-    const val OAUTH_GET_TOKEN_REQUEST_CODE = 1802
-
-
     /**
      * Other
      */
@@ -63,6 +59,5 @@ object Constant {
 
     const val UPDATE_DOCUMENT_TIMEOUT = 3000L
 
-    const val EXTRA_OAUTH_TOKEN_RESPONSE = "key"
 
 }

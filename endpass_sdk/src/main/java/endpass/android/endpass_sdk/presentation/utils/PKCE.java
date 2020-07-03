@@ -34,7 +34,7 @@ public class PKCE {
 
     private static String encodeBase64URLSafeString(byte[] binaryData) {
 
-        return Base64.encodeToString(binaryData, Base64.URL_SAFE);
+        return android.util.Base64.encodeToString(binaryData, Base64.URL_SAFE);
 
     }
 }

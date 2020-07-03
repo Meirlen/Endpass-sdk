@@ -174,7 +174,6 @@ open class DocFlowViewModel(
         requireDocumentUseCase.execute(
             { response ->
                 requireDocumentsLiveData.value = response
-                AppSingleton.filters = response
             },
             {
               //  requireDocumentsLiveData.value = ""
