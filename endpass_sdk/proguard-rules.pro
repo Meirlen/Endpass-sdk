@@ -22,5 +22,5 @@
 
 -keepclassmembers enum * { *; }
 
--keep endpass.android.endpass_sdk.presentation.router.** { *; }
+-keep class endpass.android.endpass_sdk.presentation.router.** { *; }
 -keep class androidx.appcompat.widget.** { *; }
