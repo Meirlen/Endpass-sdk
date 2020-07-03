@@ -49,6 +49,9 @@ object Constant {
     const val VERIFIED_DOCUMENT_CODE = 1870
 
 
+    const val OAUTH_GET_TOKEN_REQUEST_CODE = 1802
+
+
     /**
      * Other
      */
@@ -58,6 +61,8 @@ object Constant {
     const val CODE_NOTIFICATION_CHANNEL_ID = "CHANNEL_ID"
 
     const val UPDATE_DOCUMENT_TIMEOUT = 3000L
+
+    const val EXTRA_OAUTH_TOKEN_RESPONSE = "key"
 
 
 }
