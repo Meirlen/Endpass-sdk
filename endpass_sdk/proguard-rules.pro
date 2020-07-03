@@ -20,5 +20,19 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
+-keepclassmembers enum * { *; }
 
+-keep endpass.android.endpass_sdk.presentation.router.** { *; }
 -keep class androidx.appcompat.widget.** { *; }
+
+-dontusemixedcaseclassnames
+-verbose
+
+-assumenosideeffects class android.util.Log {
+  public static *** v(...);
+  public static *** d(...);
+  public static *** i(...);
+  public static *** w(...);
+  public static *** e(...);
+}
+-ignorewarnings
