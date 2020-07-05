@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.password
+package endpass.android.endpass_sdk.presentation.auth.password
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import endpass.android.endpass_sdk.R
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
 import endpass.android.endpass_sdk.presentation.impl.PasswordStrategy
 import endpass.android.endpass_sdk.presentation.router.MainRouter
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
 import kotlinx.android.synthetic.main.fragment_password.*
 import org.koin.android.ext.android.inject
 import org.koin.android.viewmodel.ext.android.sharedViewModel

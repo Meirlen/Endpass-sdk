@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.password
+package endpass.android.endpass_sdk.presentation.auth.password
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,11 +10,11 @@ import endpass.android.endpass_sdk.R
 import endpass.android.endpass_sdk.presentation.ext.*
 import endpass.android.endpass_sdk.presentation.impl.CodeStrategy
 import endpass.android.endpass_sdk.presentation.impl.PasswordStrategy
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
-import endpass.android.endpass_sdk.presentation.ui.auth.verify.VerificationFragment
 import endpass.android.endpass_sdk.presentation.vo.Status
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import endpass.android.endpass_sdk.gateway.entity.login.LoginExtraData
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.verify.VerificationFragment
 import kotlinx.android.synthetic.main.fragment_change_pass.*
 import org.koin.android.viewmodel.ext.android.viewModel
 

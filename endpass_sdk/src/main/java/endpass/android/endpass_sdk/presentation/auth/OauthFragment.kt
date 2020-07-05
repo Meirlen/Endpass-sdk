@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth
+package endpass.android.endpass_sdk.presentation.auth
 
 import android.app.Activity
 import android.content.Intent
@@ -9,10 +9,11 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import endpass.android.endpass_sdk.R
 import endpass.android.endpass_sdk.gateway.EnumCollections
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.verify.VerificationFragment
 import endpass.android.endpass_sdk.presentation.base.Constant.EXTRA_OAUTH_TOKEN_RESPONSE
 import endpass.android.endpass_sdk.presentation.ext.*
 import endpass.android.endpass_sdk.presentation.router.MainRouter
-import endpass.android.endpass_sdk.presentation.ui.auth.verify.VerificationFragment
 import endpass.android.endpass_sdk.presentation.vo.Status
 import org.koin.android.ext.android.inject
 import org.koin.android.viewmodel.ext.android.viewModel

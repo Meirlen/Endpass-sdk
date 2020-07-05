@@ -1,12 +1,12 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.login
+package endpass.android.endpass_sdk.presentation.auth.login
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import endpass.android.endpass_sdk.R
-import endpass.android.endpass_sdk.presentation.ui.auth.reg.RegistrationFragment
 import endpass.android.endpass_sdk.gateway.EnumCollections.LoginScenario.*
+import endpass.android.endpass_sdk.presentation.auth.reg.RegistrationFragment
 
 private val TAB_TITLES = arrayOf(
     R.string.tab_login_1,

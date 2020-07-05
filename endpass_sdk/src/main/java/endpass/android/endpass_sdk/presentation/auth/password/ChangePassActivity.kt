@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.password
+package endpass.android.endpass_sdk.presentation.auth.password
 
 import android.content.Context
 import android.content.Intent

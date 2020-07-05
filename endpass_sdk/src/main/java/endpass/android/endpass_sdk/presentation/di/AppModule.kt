@@ -4,10 +4,10 @@ import endpass.android.endpass_sdk.data.impl.*
 
 import endpass.android.endpass_sdk.domain.repository.*
 
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
 import endpass.android.endpass_sdk.presentation.ui.home.DocFlowViewModel
 import endpass.android.endpass_sdk.domain.interactor.*
-import endpass.android.endpass_sdk.presentation.ui.auth.OAuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.OAuthViewModel
 
 import org.koin.android.viewmodel.ext.koin.viewModel
 import org.koin.dsl.module.module

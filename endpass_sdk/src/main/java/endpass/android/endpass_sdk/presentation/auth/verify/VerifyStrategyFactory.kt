@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.verify
+package endpass.android.endpass_sdk.presentation.auth.verify
 
 import endpass.android.endpass_sdk.presentation.impl.*
 import endpass.android.endpass_sdk.gateway.EnumCollections

@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth
+package endpass.android.endpass_sdk.presentation.auth
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

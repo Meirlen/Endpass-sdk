@@ -8,7 +8,7 @@ import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Observer
 import endpass.android.endpass_sdk.R
 import endpass.android.endpass_sdk.presentation.ext.*
-import endpass.android.endpass_sdk.presentation.ui.auth.OAuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.OAuthViewModel
 import endpass.android.endpass_sdk.presentation.ui.scopes.ScopeAdapter
 import kotlinx.android.synthetic.main.fragment_scopes.*
 import org.koin.android.viewmodel.ext.android.sharedViewModel

@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.login
+package endpass.android.endpass_sdk.presentation.auth.login
 
 import androidx.lifecycle.Observer
 import android.os.Bundle
@@ -10,12 +10,12 @@ import endpass.android.endpass_sdk.R
 import endpass.android.endpass_sdk.presentation.vo.Status
 import endpass.android.endpass_sdk.presentation.ext.*
 import endpass.android.endpass_sdk.presentation.impl.EmailStrategy
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
-import endpass.android.endpass_sdk.presentation.ui.auth.password.PasswordFragment
-import endpass.android.endpass_sdk.presentation.ui.auth.reg.RegistrationFragment
-import endpass.android.endpass_sdk.presentation.ui.auth.verify.VerificationFragment
 import endpass.android.endpass_sdk.presentation.utils.NetworkHandler
 import endpass.android.endpass_sdk.gateway.EnumCollections.*
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.password.PasswordFragment
+import endpass.android.endpass_sdk.presentation.auth.reg.RegistrationFragment
+import endpass.android.endpass_sdk.presentation.auth.verify.VerificationFragment
 import kotlinx.android.synthetic.main.fragment_login.loginBtn
 import kotlinx.android.synthetic.main.fragment_login.mProgressBar
 import org.koin.android.ext.android.inject

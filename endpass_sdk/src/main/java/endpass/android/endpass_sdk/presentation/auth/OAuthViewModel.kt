@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth
+package endpass.android.endpass_sdk.presentation.auth
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import endpass.android.endpass_sdk.presentation.vo.Resource

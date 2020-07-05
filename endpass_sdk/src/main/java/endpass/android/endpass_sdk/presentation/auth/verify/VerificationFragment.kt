@@ -1,4 +1,4 @@
-package endpass.android.endpass_sdk.presentation.ui.auth.verify
+package endpass.android.endpass_sdk.presentation.auth.verify
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -14,13 +14,13 @@ import endpass.android.endpass_sdk.presentation.ext.*
 import endpass.android.endpass_sdk.presentation.impl.*
 import endpass.android.endpass_sdk.presentation.router.MainRouter
 import endpass.android.endpass_sdk.presentation.ui.HomeActivity.Companion.HOME
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
 import endpass.android.endpass_sdk.presentation.utils.Encryption
 import endpass.android.endpass_sdk.presentation.utils.LocalData
 import endpass.android.endpass_sdk.presentation.vo.Status
 import endpass.android.endpass_sdk.gateway.EnumCollections.*
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthActivity.Companion.EXTRA_FLOW_TYPE
-import endpass.android.endpass_sdk.presentation.ui.auth.OAuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.AuthActivity.Companion.EXTRA_FLOW_TYPE
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
+import endpass.android.endpass_sdk.presentation.auth.OAuthViewModel
 import endpass.android.endpass_sdk.presentation.utils.AppSingleton
 import kotlinx.android.synthetic.main.fragment_verify.*
 import kotlinx.android.synthetic.main.fragment_verify.mProgressBar

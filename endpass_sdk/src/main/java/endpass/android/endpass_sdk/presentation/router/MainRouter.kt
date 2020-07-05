@@ -5,12 +5,12 @@ import androidx.fragment.app.Fragment
 import endpass.android.endpass_sdk.gateway.EnumCollections
 import endpass.android.endpass_sdk.gateway.entity.DocumentHolder
 import endpass.android.endpass_sdk.presentation.ui.HomeActivity
-import endpass.android.endpass_sdk.presentation.ui.auth.password.ChangePassActivity
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthActivity
+import endpass.android.endpass_sdk.presentation.auth.password.ChangePassActivity
+import endpass.android.endpass_sdk.presentation.auth.AuthActivity
 import endpass.android.endpass_sdk.gateway.entity.login.LoginExtraData
 import endpass.android.endpass_sdk.presentation.base.Constant
 import endpass.android.endpass_sdk.presentation.base.Constant.TAKE_PHOTO_REQUEST_CODE
-import endpass.android.endpass_sdk.presentation.ui.auth.OauthActivity
+import endpass.android.endpass_sdk.presentation.auth.OauthActivity
 import endpass.android.endpass_sdk.presentation.ui.cropper.CropperActivity
 import endpass.android.endpass_sdk.presentation.ui.document.CameraActivity
 import endpass.android.endpass_sdk.presentation.ui.document.DocumentActivity

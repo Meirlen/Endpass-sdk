@@ -17,11 +17,11 @@ import endpass.android.endpass_sdk.presentation.router.MainRouter
 import endpass.android.endpass_sdk.presentation.utils.DataParser
 import endpass.android.endpass_sdk.presentation.vo.Status
 import endpass.android.endpass_sdk.gateway.entity.documents.Document
+import endpass.android.endpass_sdk.presentation.auth.AuthViewModel
 import endpass.android.endpass_sdk.presentation.impl.DocumentListStrategyImpl
 import endpass.android.endpass_sdk.presentation.impl.MainDocumentStrategy
 import endpass.android.endpass_sdk.presentation.impl.OauthDocumentStrategy
 import endpass.android.endpass_sdk.presentation.ui.HomeActivity
-import endpass.android.endpass_sdk.presentation.ui.auth.AuthViewModel
 import endpass.android.endpass_sdk.presentation.ui.dialog.AddDocumentDialog
 import endpass.android.endpass_sdk.presentation.ui.dialog.LoaderFragment
 import endpass.android.endpass_sdk.presentation.ui.dialog.VerifiedDocumentsDialog

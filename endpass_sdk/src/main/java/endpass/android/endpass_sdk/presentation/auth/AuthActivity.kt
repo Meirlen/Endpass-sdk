@@ -1,11 +1,11 @@
-package endpass.android.endpass_sdk.presentation.ui.auth
+package endpass.android.endpass_sdk.presentation.auth
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import endpass.android.endpass_sdk.R
+import endpass.android.endpass_sdk.presentation.auth.login.LoginPagerAdapter
 import endpass.android.endpass_sdk.presentation.base.BaseActivity
-import endpass.android.endpass_sdk.presentation.ui.auth.login.LoginPagerAdapter
 import kotlinx.android.synthetic.main.activity_login.*
 
 
